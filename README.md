@@ -1,2 +1,2 @@
-# fic-javascript-janeiro
+# fic-javascript-jan
 # Kawan
