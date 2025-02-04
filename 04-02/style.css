@@ -3,3 +3,8 @@
     margin: 0;
     width: 200px;
 }
+
+body {
+    background-color: rgb(128, 128, 128);
+    background-size: cover;
+}
