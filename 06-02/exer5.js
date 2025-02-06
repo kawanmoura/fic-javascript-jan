@@ -5,6 +5,5 @@
 
 const linguagem = "JavaScript";
 
-linguagem.length = linguagem;
 console.log(linguagem);
 console.log(linguagem.length);
