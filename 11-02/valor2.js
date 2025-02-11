@@ -1,6 +1,6 @@
-let valor = 15;
+let valor = 25;
 
-if (valor > 16 && valor < 20) /*&& é para um "E"*/ {
+if (valor < 10 || valor > 20) /*|| é para um "OU"*/ {
   console.log("O valor é válido");
 } else {
     console.log("O valor não é válido");
