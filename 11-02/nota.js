@@ -6,7 +6,7 @@
 const nota = 6;
 
 if (nota >= 6) {
-    console.log('Aprovado');
+    console.log(`Sua nota é: ${nota}. Você está aprovado`);
 } else {
-    console.log('Reprovado');
+    console.log(`Sua nota é: ${nota}. Você está reprovado`);
 }
