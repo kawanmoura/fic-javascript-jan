@@ -3,7 +3,7 @@
     se não, ele está reprovado
 */
 
-const nota = 5;
+const nota = 6;
 
 if (nota >= 6) {
     console.log('Aprovado');
