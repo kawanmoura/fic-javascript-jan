@@ -12,7 +12,10 @@
 
 const idade = 7;
 
-if (idade <= 7 || idade >= 65) {
+const primeVariable = idade <= 7;
+const secVariable = idade >= 65;
+
+if (primeVariable || secVariable) {
     console.log("Para você, a entrada é grátis!");
 } else {
     console.log("A entrada é R$30,00.");
