@@ -6,5 +6,10 @@ valor = valor + 1;
 
 console.log(valor);
 
+valor++;
+
+console.log(valor);
+
 valor += 3;
+
 console.log(valor);
