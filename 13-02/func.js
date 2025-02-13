@@ -1,8 +1,9 @@
 // Bloco de Código
 
 function nomeDaFuncao() {
-    alert ("Minha função *****");
+    alert ("Teste");
 }
 
-// Chamando a Função
-// console.log(nomeDaFuncao());
+/* Chamando a Função
+console.log(nomeDaFuncao());
+*/
