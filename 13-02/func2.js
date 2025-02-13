@@ -2,8 +2,12 @@ function mostrarNome(name) {
   document.write(name);
 }
 
+function pularLinha() {
+  document.write("<br><br>");
+}
+pularLinha();
 mostrarNome("João");
-document.write("<br>");
+pularLinha();
 mostrarNome("Maria");
-document.write("<br>");
+pularLinha();
 mostrarNome("Pedro");
