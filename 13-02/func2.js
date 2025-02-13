@@ -2,6 +2,7 @@ function mostrarNome(name) {
   document.write(name);
 }
 
+// Função para pular linha
 function pularLinha() {
   document.write("<br><br>");
 }
