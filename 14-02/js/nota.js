@@ -9,8 +9,10 @@ function resultadoNotaClick(event) {
 
     // Condição
     if (inputNota.value >= 6) {
-        console.log("Aprovado");
+        resultado.innerHTML =  "Mais próximo da vagabundagem!";
     } else {
-        console.log("Reprovado");
+        resultado.innerHTML =  "Quem passa direto é trem!";
     }
+
+    inputNota.value = "";
 } 
