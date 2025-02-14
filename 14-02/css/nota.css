@@ -18,3 +18,27 @@ body {
     /* Centralizar minha tela */
     margin: 0 auto;
 }
+
+.container form {
+    /* Flexbox */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-control input {
+    /* Espaçamento entre os elementos */
+    margin-top: 15px;
+    margin-bottom: 15px;
+    /* Efeito colateral do navegador */
+    outline: none;
+    /* Espaçamento dentro do elemento */
+    padding: 5px;
+}
+
+.form-control label {
+    /* Espaçamento entre os elementos */
+    margin-top: 15px;
+    color: #ffffff;
+    display: block;
+}
