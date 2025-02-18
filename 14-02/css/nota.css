@@ -63,3 +63,13 @@ body {
     color: #ffffff;
     margin-bottom: 10px;
 }
+
+#message {
+    display: none;
+}
+
+#message span {
+    color: white;
+    padding-bottom: 10px;
+    display: block;
+}
