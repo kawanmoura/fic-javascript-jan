@@ -10,6 +10,7 @@ function resultadoNotaClick(event) {
 
     // Validação de formulário
     if (inputNota.value == "") {
+        message.style.display = "block";
         // alert("Digite a nota.");
         return false;
     }
@@ -21,5 +22,8 @@ function resultadoNotaClick(event) {
         resultado.innerHTML =  "Quem passa direto é trem!";
     }
 
+    message.style.display = "none";
+
     inputNota.value = "";
+
 } 

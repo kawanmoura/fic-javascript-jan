@@ -69,7 +69,6 @@ body {
 }
 
 #message span {
-    color: white;
+    color: red;
     padding-bottom: 10px;
-    display: block;
 }
