@@ -1,0 +1,36 @@
+.container {
+    max-width: 350px;
+    border: 2px solid orange;
+    margin: 20px auto;
+    background: #7ffd;
+}
+
+.container h1, h2 {
+    font-size: 18px;
+    color: purple;
+    padding: 10px;
+}
+
+.form-control {
+    padding: 10px;
+}
+
+.form-control label {
+    font-weight: bold;
+    font-size: 14px;
+    color: brown;
+}
+
+.form-control input {
+    border: 2px solid brown;
+    padding: 3px;
+    outline: none;
+}
+
+button {
+    margin: 10px;
+    background: brown;
+    color: #fff;
+    padding: 5px;
+    cursor: pointer;
+}
