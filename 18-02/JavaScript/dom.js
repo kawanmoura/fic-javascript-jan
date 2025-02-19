@@ -53,10 +53,10 @@ function mudar(event) {
   function mudarCor() {
     // alert("Olá!") 
 
-    if (document.body.style.backgroundColor === "Blue") {
-    document.body.style.backgroundColor = "";
+    if (document.body.style.backgroundColor === "blue") {
+     document.body.style.backgroundColor = "";
     } else {
-        document.body.style.backgroundColor = "Blue";
+     document.body.style.backgroundColor = "blue";
     }
 }
 
