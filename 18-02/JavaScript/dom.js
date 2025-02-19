@@ -10,6 +10,28 @@ const txtEmail = document.getElementById("txt_email");
 function mudar(event) {
     event.preventDefault();
 
+    // Validação de Formulário
+    if (nome.value === "" || cidade.value === "" || email.value === "") {
+        alert("Você não digitou em todos os campos!")
+        return false;
+    }
+
+
+    if (nome.value === ""){
+        alert("Preencha o campo de NOME!");
+        return false;
+    }
+
+    if (cidade.value === ""){
+    alert("Preencha o campo de CIDADE!");
+        return false;
+    }
+
+    if (email.value === ""){
+        alert("Preencha o campo de EMAIL!");
+        return false;
+    }
+
     // titulo
     titulo.innerHTML = nome.value
     // subtitulo
@@ -23,4 +45,18 @@ function mudar(event) {
     cidade.value = "";
     email.value = "";
 
+  
+
 }
+
+  // Outra Função
+  function mudarCor() {
+    // alert("Olá!") 
+
+    if (document.body.style.background === "Blue") {
+        document.body.style.background = "";
+    } else {
+        document.body.style.background = "Blue";
+    }
+}
+
