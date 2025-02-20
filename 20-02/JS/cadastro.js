@@ -15,6 +15,8 @@ salvarBtn.addEventListener("click", function() {
     limparCampos()
 });
 
+
+// Limpar Campos
 function limparCampos() {
     campo.value = "";
 }
