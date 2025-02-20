@@ -11,6 +11,8 @@ function somar(event) {
 
     let resultadoSoma = Number(valor1.value) + Number(valor2.value);
     resultado.innerHTML =resultadoSoma;
+
+    limparCampos()
 }
 
 // Função para sub
@@ -19,6 +21,8 @@ function subt(event) {
 
     let resultadoSub = Number(valor1.value) - Number(valor2.value);
     resultado.innerHTML = resultadoSub;
+
+    limparCampos()
 }
 
 // Função para div
@@ -27,6 +31,8 @@ function div(event) {
 
     let resultadoDiv = Number(valor1.value) / Number(valor2.value);
     resultado.innerHTML = resultadoDiv;
+
+    limparCampos()
 }
 
 // Função para mult
@@ -35,6 +41,12 @@ function mult(event) {
 
     let resultadoMult = Number(valor1.value) * Number(valor2.value);
     resultado.innerHTML = resultadoMult;
+
+    limparCampos()
 }
 
 // Função limpar campo
+function limparCampos() {
+    valor1.value = "";
+    valor2.value = "";
+}
