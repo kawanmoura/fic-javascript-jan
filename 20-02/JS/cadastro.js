@@ -11,4 +11,10 @@ salvarBtn.addEventListener("click", function() {
 
     // Funcionabilidade do LocalStorage
     localStorage.setItem(chave, valor);
+
+    limparCampos()
 });
+
+function limparCampos() {
+    campo.value = "";
+}
