@@ -1,8 +1,14 @@
 // Variáveis
 const campo = document.querySelector("#campo");
-const salvar = document.querySelector("#salvar");
+const salvarBtn = document.querySelector("#salvar");
 
 // Adicionar evento de clique ao botão salvar
 salvarBtn.addEventListener("click", function() {
-    alert("teste")
+    const valor = campo.value;
+
+    // Salvar no localStorage
+    const chave = `ValorSalvo_${Date.now()}`; // Usa timestamp para chave única
+
+    // Funcionabilidade do LocalStorage
+    localStorage.setItem(chave, valor);
 });
