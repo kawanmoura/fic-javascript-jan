@@ -1,7 +1,7 @@
 const cars = [
     {
         brand:"Toyota",
-        model:"Supra",
+        model:"Supra MK4",
         year: 1993
     },
     {
@@ -9,10 +9,42 @@ const cars = [
         model:"NSX",
         year: 1991
     },
+    {
+        brand:"Subaru",
+        model:"WRX",
+        year: 2007
+    },
+    {
+        brand:"Mitsubishi",
+        model:"Lancer EVO",
+        year: 1992
+    },
+    {
+        brand:"Dodge",
+        model:"Dodge Hellcat",
+        year: 2015
+    },
 ];
 
-console.log(cars[0].model);
-// Ano do honda
-console.log(cars[1].year);
-// Ano do toyota
-console.log(cars[0].year);
+// Cria uma função e chama essa função displayCards, aqui mesmo
+function displayCards() {
+    const cardList = document.querySelector("#card-list");
+    
+    cars.forEach((car) => {
+        // Criamos um elemento div pelo JS
+        const cardDiv = document.createElement("div");
+        cardDiv.classList.add('car');
+
+        // Criando o modelo
+        const carModel = document.createElement("h2");
+        carModel.textContent = `${car.brand} ${car.model} ${car.year}`;
+
+        // Imprimindo na tela as informações
+        cardDiv.appendChild(carModel);
+
+    })
+
+}
+
+// Chamar Função
+displayCards();
