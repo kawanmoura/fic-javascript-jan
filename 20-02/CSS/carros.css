@@ -1,0 +1,26 @@
+body {
+    font-family: Arial;
+    margin: 20px;
+    background: #f0f0f0;
+}
+
+h1 {
+    color: #333;
+}
+
+.car {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.car h2 {
+    margin: 0;
+    color: #555;
+}
+
+.car p {
+    margin: 5px 0;
+}
