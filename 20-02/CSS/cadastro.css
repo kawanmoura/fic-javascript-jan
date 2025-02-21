@@ -65,3 +65,7 @@ button {
 button:hover {
     background-color: #570348;
 }
+
+.carrinho {
+    text-decoration: none;
+}

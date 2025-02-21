@@ -37,10 +37,16 @@ function displayCards() {
 
         // Criando o modelo
         const carModel = document.createElement("h2");
-        carModel.textContent = `${car.brand} ${car.model} ${car.year}`;
+        carModel.textContent = `${car.brand} - ${car.model}`;
+
+        // Criando o Ano
+        const carYear = document.createElement("p");
+        carYear.textContent = `Ano: ${car.year}`;
 
         // Imprimindo na tela as informações
         cardDiv.appendChild(carModel);
+        cardDiv.appendChild(carYear);
+        cardList.appendChild(cardDiv);
 
     })
 
