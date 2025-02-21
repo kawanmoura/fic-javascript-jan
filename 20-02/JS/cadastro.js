@@ -6,6 +6,12 @@ const salvarBtn = document.querySelector("#salvar");
 salvarBtn.addEventListener("click", function() {
     const valor = campo.value;
 
+    // Validação de formulário
+    if (campo.value === "") {
+        alert("Preencha o campo!");
+        return false;
+    }
+
     // Salvar no localStorage
     const chave = `ValorSalvo_${Date.now()}`; // Usa timestamp para chave única
 
