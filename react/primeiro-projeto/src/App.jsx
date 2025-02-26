@@ -1,4 +1,5 @@
 import Header from "./assets/Components/Header";
+import Banner from "./assets/Components/Banner";
 import "./App.css";
 
 function App() {
@@ -9,11 +10,9 @@ function App() {
         <Header />
 
         <h1>Seja Bem-Vindo</h1>
+        
+        <Banner />
 
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis labore voluptatibus fugit ab doloremque quidem laudantium officia 
-          iure, eveniet animi voluptate repudiandae repellat sapiente similique alias nulla commodi a harum? Commodi placeat velit voluptatem architecto impedit hic id ullam voluptate? Cumque aspernatur nobis doloribus veniam adipisci exercitationem, dolorum ad perferendis.
-        </p>
       </div>
     </>
   )
