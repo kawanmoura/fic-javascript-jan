@@ -1,5 +1,7 @@
 import Header from "./assets/Components/Header";
 import Banner from "./assets/Components/Banner";
+import ImgCard from "./assets/Components/imgCard";
+
 import "./App.css";
 
 function App() {
@@ -12,8 +14,8 @@ function App() {
           <h1>Bem-Vindo ao Meu Site</h1>
           <p>Aqui você encontra as melhores oportunidades</p>
         </Banner>
-        <h1>Seja Bem-Vindo</h1>
-        
+
+        <ImgCard caption="Uma imagem legal"/>
       
 
       </div>

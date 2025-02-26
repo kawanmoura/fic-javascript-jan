@@ -1,0 +1,21 @@
+/* imageCard.css */
+.image-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px; /* Ajuste conforme necessário */
+  margin: 0 auto; /* Centraliza o card */
+}
+
+.image-card-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.image-card-caption {
+  margin-top: 8px;
+  font-size: 16px;
+}
