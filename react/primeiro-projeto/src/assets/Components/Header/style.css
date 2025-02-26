@@ -1,0 +1,11 @@
+header {
+    height: 120px;
+    background: rgb(209, 207, 207);
+    border-bottom: 2px solid blueviolet;
+}
+
+header h1 {
+    padding: 25px;
+    text-transform: uppercase;
+    color: blueviolet;
+}
