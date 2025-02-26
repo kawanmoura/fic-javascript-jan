@@ -7,11 +7,11 @@ function App() {
   return (
     <>
       <div className="container">
-        <Header />
-
+        <Header title="Logo New" />
+        <Banner />
         <h1>Seja Bem-Vindo</h1>
         
-        <Banner />
+      
 
       </div>
     </>
