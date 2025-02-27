@@ -5,7 +5,6 @@ export default function Header(props) {
     Props cria propiedades no componentes
   */
 
-  console.log(props);
 
    return(
     <header>
