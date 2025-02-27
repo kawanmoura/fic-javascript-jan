@@ -1,16 +1,16 @@
-import "./style.css";
+import "./style.css"
 
-export default function Header (props) {
+export default function Header(props) {
+  /*
+    Props cria propiedades no componentes
+  */
 
-    /*
-        Props cria propriedades nos componentes
-    */
+  console.log(props);
 
-    console.log(props);
-    return (
-        <header>
-            <h1>{props.title}</h1>
-        </header>
-    )
+   return(
+    <header>
+      <h1>{props.title}</h1>
+    </header>
+   )
 
 }
