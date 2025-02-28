@@ -1,13 +1,13 @@
 import Banner from "./Components/Banner";
-import Cadastro from "./Components/Button";
+import Button from "./Components/Button";
 import Card from "./Components/Card";
+import Count from "./Components/Count";
 import Header from "./Components/Header";
 import ImgCard from "./Components/ImgCard";
 import TextComponent from "./Components/Text";
 
 import img1 from "./assets/img-1.jpg";
-import img2 from "./assets/img-2.jpg";
-import img3 from "./assets/img-3.jpg";
+import logo from "./assets/download.png";
 
 import React from 'react';
 
@@ -18,24 +18,23 @@ function App() {
   return (
     <>
       <div className="container">
-        <Cadastro />
+        <Button />
         <hr />
 
-        <Header title="Logo New" subTitle="Outros" />
+        <Header Title={logo} />
 
         <Banner>
           <h1>Seja bem vindo!</h1>
-          <p>Aqui você emcomtra as melhores ofertas!</p>
+          <p>Aqui você emcontra as melhores ofertas!</p>
         </Banner>
         <TextComponent />
 
         <div>
         <ImgCard caption="Uma imagem legal" newImg={img1} />
-        <ImgCard caption="Uma imagem legal" newImg={img2} />
-        <ImgCard caption="Uma imagem legal" newImg={img3} />
         </div>
 
         <Card />
+        <Count />
 
       </div>
     </>

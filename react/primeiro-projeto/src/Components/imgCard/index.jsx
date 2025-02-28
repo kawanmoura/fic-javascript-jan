@@ -1,5 +1,5 @@
 import React from 'react'
-import img1 from "../../assets/img-1.jpg"
+import img1 from "../../assets/img-1.jpg";
 import "./style.css"
 
 export default function ImgCard(props) {
