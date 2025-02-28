@@ -1,25 +1,24 @@
 import React, { useState } from 'react'
+import './count.css'
+
 
 export default function Count() {
   const [count, setCount] = useState(0);
 
-  // Função para aumentar o valor do estado
-  const aumentar = () => {
-    alert("Oláááá")
-  }
-
-  // Função para aumentar o valor do estado
-  const dimunuir = () => {
-    alert("Tchauuuuu")
-  }
-
+    // Função para aumentar o valor do estado
+    const aumentar = () => {
+      setCount(count + 1);
+    }
+    // Função para aumentar o valor do estado
+    const dimunuir = () => {
+      setCount(count - 1);
+    }  
 
   return (
-    <div style={{textAlign:"center", marginTop:'50px'}}>
-        <h1>{count}</h1>
-
-        <button onClick={aumentar} style={{marginRight: '10px'}}>Aumentar</button>
-        <button onClick={dimunuir} style={{marginRight: '10px'}}>Diminuir</button>
+    <div className="count-container">
+        <h1 className="count-value">{count}</h1>
+        <button className="count-button" onClick={aumentar}>Aumentar</button>
+        <button className="count-button" onClick={dimunuir}>Diminuir</button>
     </div>
   )
 }
