@@ -1,4 +1,5 @@
 import Banner from "./Components/Banner";
+import Cadastro from "./Components/Button";
 import Card from "./Components/Card";
 import Header from "./Components/Header";
 import ImgCard from "./Components/ImgCard";
@@ -17,6 +18,9 @@ function App() {
   return (
     <>
       <div className="container">
+        <Cadastro />
+        <hr />
+
         <Header title="Logo New" subTitle="Outros" />
 
         <Banner>
@@ -32,6 +36,7 @@ function App() {
         </div>
 
         <Card />
+
       </div>
     </>
   )
