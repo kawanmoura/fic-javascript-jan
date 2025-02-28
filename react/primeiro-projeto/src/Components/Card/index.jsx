@@ -30,7 +30,6 @@ export default function Card() {
         }
     ];
 
-    console.log(lista)
 
     return (
         <div className="card-container">
