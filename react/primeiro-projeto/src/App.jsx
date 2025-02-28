@@ -4,7 +4,7 @@ import Card from "./Components/Card";
 import Count from "./Components/Count";
 import Header from "./Components/Header";
 import ImgCard from "./Components/ImgCard";
-import TextComponent from "./Components/Text";
+import Text from "./Components/Text";
 
 import img1 from "./assets/img-1.jpg";
 import logo from "./assets/download.png";
@@ -19,22 +19,23 @@ function App() {
     <>
       <div className="container">
         <Button />
-        <hr />
 
         <Header Title={logo} />
+
+        <Count />
 
         <Banner>
           <h1>Seja bem vindo!</h1>
           <p>Aqui você emcontra as melhores ofertas!</p>
         </Banner>
-        <TextComponent />
+
+        <Text />
 
         <div>
         <ImgCard caption="Uma imagem legal" newImg={img1} />
         </div>
 
         <Card />
-        <Count />
 
       </div>
     </>
